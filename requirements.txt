@@ -5,3 +5,5 @@ spacy
 scikit-learn
 flask
 ir-datasets
+
+matplotlib

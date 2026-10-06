@@ -2,6 +2,14 @@
 
 Proyecto académico de recuperación de información: compara dos métodos clásicos para ordenar documentos según una consulta. Incluye una interfaz web con Flask y evaluación sobre el corpus ArguAna.
 
+## Demostración visual ejecutada
+
+La figura se generó ejecutando 	fidf_search y m25_search sobre seis documentos de ejemplo. No es una evaluación del corpus ArguAna: muestra cómo cambia la puntuación por documento. Cada algoritmo usa su propia escala.
+
+![Comparación TF-IDF y BM25](preview-busqueda.png)
+
+Para regenerarla después de instalar las dependencias: python generar_figura_demo.py.
+
 ## Qué hace
 
 - Preprocesa texto en inglés: normalización, stopwords, stemming y lematización.
