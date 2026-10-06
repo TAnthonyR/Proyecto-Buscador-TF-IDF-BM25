@@ -1,4 +1,4 @@
-# Buscador de documentos con TF-IDF y BM25
+# Proyecto — Buscador de documentos con TF-IDF y BM25
 
 Proyecto académico de recuperación de información: compara dos métodos clásicos para ordenar documentos según una consulta. Incluye una interfaz web con Flask y evaluación sobre el corpus ArguAna.
 
@@ -6,7 +6,9 @@ Proyecto académico de recuperación de información: compara dos métodos clás
 
 La figura se generó ejecutando `tfidf_search` y `bm25_search` sobre seis documentos de ejemplo. No es una evaluación del corpus ArguAna: muestra cómo cambia la puntuación por documento. Cada algoritmo usa su propia escala.
 
-![Comparación TF-IDF y BM25](preview-busqueda.png)
+### Demostración del funcionamiento: comparación de TF-IDF y BM25
+
+![Demostración del funcionamiento: comparación de TF-IDF y BM25](preview-busqueda.png)
 
 Para regenerarla después de instalar las dependencias: `python generar_figura_demo.py`.
 
