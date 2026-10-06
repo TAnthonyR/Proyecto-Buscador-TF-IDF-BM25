@@ -4,11 +4,11 @@ Proyecto académico de recuperación de información: compara dos métodos clás
 
 ## Demostración visual ejecutada
 
-La figura se generó ejecutando 	fidf_search y m25_search sobre seis documentos de ejemplo. No es una evaluación del corpus ArguAna: muestra cómo cambia la puntuación por documento. Cada algoritmo usa su propia escala.
+La figura se generó ejecutando `tfidf_search` y `bm25_search` sobre seis documentos de ejemplo. No es una evaluación del corpus ArguAna: muestra cómo cambia la puntuación por documento. Cada algoritmo usa su propia escala.
 
 ![Comparación TF-IDF y BM25](preview-busqueda.png)
 
-Para regenerarla después de instalar las dependencias: python generar_figura_demo.py.
+Para regenerarla después de instalar las dependencias: `python generar_figura_demo.py`.
 
 ## Qué hace
 
